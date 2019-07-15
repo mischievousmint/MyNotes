@@ -71,7 +71,6 @@ public class MyFirebase extends Activity {
         void onRefreshList(ArrayList<NotesModel> notesModels);
     }
 
-
 }
 
 

@@ -1,4 +1,4 @@
-package com.example.mynotes;
+package com.example.mynotes.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +9,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.mynotes.MyFirebase;
+import com.example.mynotes.NotesAdapter;
+import com.example.mynotes.NotesModel;
+import com.example.mynotes.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
